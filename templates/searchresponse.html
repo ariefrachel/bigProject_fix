@@ -1,0 +1,19 @@
+<h3>{{numrows}} Tamu Ditemukan</h3>
+<table class="table table-striped custab">
+    <thead>
+        <tr>
+            <th>Nama Lengkap</th>
+            <th>Instansi</th>
+            <th>No Telepon</th>
+            <th>Keperluan</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in employee %}
+        <tr>
+            <td>{{row.nama_lengkap}}</td>
+            <td>{{row.instansi}}</td>
+            <td>{{row.no_telp}}</td>
+            <td>{{row.keperluan}}</td>
+        </tr>
+        {% endfor %}

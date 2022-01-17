@@ -1,0 +1,192 @@
+{
+    "intents": [{
+            "tag": "no contex",
+            "patterns": [""],
+            "responses": ["Maaf Saya tidak paham, tolong tanyakan seputar aplikasi ini"],
+            "context": [""]
+        },
+        {
+            "tag": "aplikasi",
+            "patterns": ["ini"],
+            "responses": ["ini merupakan aplikasi pengenalan wajah atau face recognition, untuk mengenali mana yang tamu mana yang karyawan/anggota."],
+            "context": [""]
+        },
+        {
+            "tag": "tujuan",
+            "patterns": ["tujuannya", "tujuan"],
+            "responses": ["Tujuan aplikasi ini adalah untuk melakukan check in untuk tamu, dimana jika tamu yang terdeteksi fitur pemindai wajah maka tamu diminta untuk mengisi daftar tamu."],
+            "context": [""]
+        },
+        {
+            "tag": "Kelompok",
+            "patterns": ["anggota", "anggotanya", "berangotakan", "siapa"],
+            "responses": ["Beranggotakan \n 1. Arief Rahman \n 2. Adi Sangjaya \n 3. Efendi Kisnoto \n 4. Doni Cahya"],
+            "context": [""]
+        },
+        {
+            "tag": "wajah",
+            "patterns": ["pengenalan wajah", "face recognition"],
+            "responses": ["Pengenalan wajah (face recognition) yaitu proses membandingkan sebuah citra wajah dengan basis data wajah dan menemukan basis data wajah yang paling cocok dengan citra masukan tersebut."],
+            "context": [""]
+        },
+        {
+            "tag": "algoritma",
+            "patterns": ["algoritma"],
+            "responses": ["Aplikasi ini mengunakan algoritma Support Vector Machine (SVM), Support Vector Machine (SVM) merupakan salah satu metode dalam supervised learning  yang biasanya digunakan untuk klasifikasi (seperti Support Vector Classification) dan regresi (Support Vector Regression). Dalam pemodelan klasifikasi, SVM memiliki konsep yang lebih matang dan lebih jelas secara matematis dibandingkan dengan teknik-teknik klasifikasi lainnya. SVM juga dapat mengatasi masalah klasifikasi dan regresi dengan linear maupun non linear"],
+            "context": [""]
+        },
+        {
+            "tag": "model",
+            "patterns": ["model"],
+            "responses": ["Aplikasi ini mengunakan model Transfer learning adalah suatu teknik atau metode yang memanfaatkan model yang sudah dilatih terhadap suatu dataset untuk menyelesaikan permasalahan lain yang serupa dengan cara menggunakannya sebagai starting point, memodifikasi dan mengupdate parameternya sehingga sesuai dengan dataset yang baru."],
+            "context": [""]
+        },
+        {
+            "tag": "Selamat Pagi",
+            "patterns": ["Pagi","pagi"],
+            "responses": ["Selamat Pagi, ada yang bisa saya bantu?"],
+            "context": [""]
+        },
+        {
+            "tag": "Selamat Siang",
+            "patterns": ["Siang","siang"],
+            "responses": ["Selamat Siang, ada yang bisa saya bantu?"],
+            "context": [""]
+        },
+        {
+            "tag": "Selamat Sore",
+            "patterns": ["Sore","sore"],
+            "responses": ["Selamat Sore, ada yang bisa saya bantu?"],
+            "context": [""]
+        },
+        {
+            "tag": "Selamat Malam",
+            "patterns": ["Malam","malam","Malem","malem"],
+            "responses": ["Selamat Malam, ada yang bisa saya bantu?"],
+            "context": [""]
+        },
+        {
+            "tag": "Halo",
+            "patterns": ["Halo","Hai"],
+            "responses": ["Halo, ada yang bisa saya bantu?", "Hai, ada yang bisa saya bantu"],
+            "context": [""]
+        },
+        {
+            "tag": "terima kasih",
+            "patterns": ["terima kasih","makasih"],
+            "responses": ["Sama - Sama"],
+            "context": [""]
+        },
+        {
+            "tag": "a1",
+            "patterns": ["Nama Kamu siapa?"],
+            "responses": ["Cuda"],
+            "context": [""]
+        },
+        {
+            "tag": "a2",
+            "patterns": ["Sehat"],
+            "responses": ["Alhamdulilah, Sehat"],
+            "context": [""]
+        },
+        {
+            "tag": "a3",
+            "patterns": ["hobi"],
+            "responses": ["menjawab pertanyaan tentang apalikasi ini."],
+            "context": [""]
+        },
+        {
+            "tag": "a4",
+            "patterns": ["tamu"],
+            "responses": ["Tamu adalah seseorang yang mengunjungi ke tempat orang lain."],
+            "context": [""]
+        },
+        {
+            "tag": "a5",
+            "patterns": ["fitur"],
+            "responses": ["yang tersedia ada Chatbot/saya sendiri, deteksi wajah, pengisisan from, dan lain lain."],
+            "context": [""]
+        },
+        {
+            "tag": "a6",
+            "patterns": ["cape"],
+            "responses": ["iya, cuda cape apalagi waktu bikin aplikasi ini banyak banget revisinya."],
+            "context": [""]
+        },
+        {
+            "tag": "a7",
+            "patterns": ["Algoritma Chatbot"],
+            "responses": ["Chatbot menggunkan algoritma Convolutional Neural Network merupakan salah satu jenis algoritme Deep Learning yang dapat menerima input berupa gambar, menentukan aspek atau obyek apa saja dalam sebuah gambar yang bisa digunakan mesin untuk belajar mengenali gambar, dan membedakan antara satu gambar dengan yang lainnya."],
+            "context": [""]
+        },
+        {
+            "tag": "a8",
+            "patterns": ["PHB","Politeknik Harapan Bersama"],
+            "responses": ["Politeknik Harapan Bersama (disingkat Poltek Harber) adalah perguruan tinggi swasta yang berkedudukan di Kota Tegal, Jawa Tengah. Di perguruan tinggi ini terdapat banyak program studi terutama D4 teknik Informatika yang mana banyak anak anak berbakat yang dapat membuat sesuatu yang menarik di bidangnya"],
+            "context": [""]
+        },
+        {
+            "tag": "a9",
+            "patterns": ["D4 teknik Informatika","TI"],
+            "responses": ["D4 teknik Informatika merupakan salah satu program studi yang mengajarkan banyak teknik terutama di bidang informatika seperti android development, front-end and back-end, UI/UX, Artificial Intelligence/AI, dan masih banyak lagi"],
+            "context": [""]
+        },
+        {
+            "tag": "b1",
+            "patterns": ["D4 teknik Informatika","TI"],
+            "responses": ["D4 teknik Informatika merupakan salah satu program studi yang mengajarkan banyak teknik terutama di bidang informatika seperti android development, front-end and back-end, UI/UX, Artificial Intelligence/AI, dan masih banyak lagi terutama yang berkaitan dengan informatika"],
+            "context": [""]
+        },
+        {
+            "tag": "b2",
+            "patterns": ["direktorat"],
+            "responses": ["Kantor Direktorat ada di Gedung D dekat cafe"],
+            "context": [""]
+        },
+        {
+            "tag": "b3",
+            "patterns": ["Dosen"],
+            "responses": ["Ruang Dosen ada di lantai 2 gedung D disamping RnD"],
+            "context": [""]
+        },
+        {
+            "tag": "b4",
+            "patterns": ["Admin TI","Admin"],
+            "responses": ["Ruang admin ada di Gedung D lantai 2 dekat ruang dosen"],
+            "context": [""]
+        },
+        {
+            "tag": "b5",
+            "patterns": ["Lab TI","Lab 2","Lab 1"],
+            "responses": ["Lab TI ada di Gedung D Lantai 3"],
+            "context": [""]
+        },
+        {
+            "tag": "b6",
+            "patterns": ["RnD"],
+            "responses": ["RnD ada di gedung D lantai 2 dekat ruang Dosen"],
+            "context": [""]
+        },
+        {
+            "tag": "b8",
+            "patterns": ["Lobby"],
+            "responses": ["Lobby ada di gedung D lantai 4, jika anda lewat tangga belok ke kiri jalan lurus setelah itu sampai"],
+            "context": [""]
+        },
+        {
+            "tag": "b9",
+            "patterns": ["Kelas"],
+            "responses": ["Kelas Ada di gedung D lantai 4, jika anda lewat tangga anda bisa belok kanan jika ingin ke kelas D-1 Sampai D-4 Belok kanan jika selain kelas tersebut. Lab ada di lantai 3 gedung D"],
+            "context": [""]
+        },
+        {
+            "tag": "c1",
+            "patterns": ["Tangga"],
+            "responses": ["untuk saat ini nggak ada cara lain selain naik tangga tapi saya tidak tau kedepannya ada lift nya nggak"],
+            "context": [""]
+        }
+
+
+
+    ]
+}

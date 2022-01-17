@@ -1,0 +1,7 @@
+./pre_img\Bagong\Bagong0001.jpg 97 75 182 191
+./pre_img\Bagong\Bagong0002.jpg 100 65 188 190
+./pre_img\Bagong\Bagong0003.jpg 103 75 184 194
+./pre_img\Bagong\Bagong0004.jpg 97 67 185 189
+./pre_img\Bagong\Bagong0005.jpg 97 64 185 187
+./pre_img\Bagong\Bagong0006.jpg 101 72 185 194
+./pre_img\Bagong\Bagong0007.jpg 96 71 183 193
